@@ -1,7 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://155xx7s6y6ta"]
+[gd_scene format=3 uid="uid://155xx7s6y6ta"]
 
 [ext_resource type="PackedScene" uid="uid://be8qbmt0fe144" path="res://scenes/sun.tscn" id="1_o5qli"]
 
-[node name="main" type="Node2D"]
+[node name="main" type="Node2D" unique_id=1745256660]
 
-[node name="Sun" parent="." instance=ExtResource("1_o5qli")]
+[node name="Sun" parent="." unique_id=1256527090 instance=ExtResource("1_o5qli")]
